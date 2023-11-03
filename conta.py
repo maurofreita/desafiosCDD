@@ -1,0 +1,16 @@
+from biblioteca import *
+
+p1 = ContaBancaria(0000, "Lorenna", "Corrente")
+p1.ativarconta()
+# p1.sacar(1000)
+# p1.depositar(2000)
+# p1.desativarconta()
+p1.ativarlimite(1000)
+p1.versaldo()
+# p1.sacar(3000)
+# p1.desativalimite()
+# p1.depositar(5000)
+# p1.sacar(8000)
+p1.depositar(500)
+p1.sacar(750)
+p1.depositar(100)
